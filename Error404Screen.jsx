@@ -16,7 +16,7 @@ export const Error404Screen = () => {
                             Sorry, an error has occured, Requested page not found!
                         </div>
                         <div className="error-actions">
-                            <Link to="/calendar/dashboard" class="btn btn-primary btn-lg"><span className="glyphicon glyphicon-home"></span>
+                            <Link to="/" class="btn btn-primary btn-lg"><span className="glyphicon glyphicon-home"></span>
                                 Take Me Home </Link><a rel="noreferrer" target="_blank" href="https://api.whatsapp.com/send?phone=573002954040" className="btn btn-default btn-lg"><span className="glyphicon glyphicon-envelope"></span> Contact Support </a>
                         </div>
                     </div>
