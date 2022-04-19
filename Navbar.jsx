@@ -1,3 +1,5 @@
+// <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
@@ -31,10 +33,13 @@ export const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-
+                <button className="btn btn-outline-danger">
+                    <i className="fas fa-sign-out-alt"></i>
+                    <span> Logout</span>
+                </button>
             </div>
 
-            <button className="btn btn-outline-danger">Logout</button>
+            
         </nav>
     )
 }
